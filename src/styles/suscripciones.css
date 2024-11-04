@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container-suscripciones {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    margin: 20px;
+    height: 200px;
+   gap: 20px;
+    padding: 20px;
+    
+}
+
+.container__suscriptores {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: clamp(200px, 40%, 300px);
+    
+    
+}
+h3 {
+    text-align: center;
+    color: #222;
+}
+select {
+    width: 90%;
+    padding: 5px;
+   margin-bottom: 10px;
+   border-radius: 4px;
+}
+
+.container__form-sus {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.container__input-sus {
+padding: 5px;
+width: 90%;
+margin-bottom: 10px;
+border-radius: 4px;
+outline: none;
+border: none;
+}
+
+.container__agregar-sus {
+    padding: 5px;
+    width: 90%;
+    border-radius: 4px;
+    background-color: #222;
+    color: #fff;
+    border: none;
+}
+
+.container__agregar-sus:hover {
+    background-color: #2229;
+}
+option {
+    text-align: center;
+}
+
+
+.container-disponible {
+    color: #222;
+    height: 100%;
+    padding: 5px 20px;
+    background-color: #a8d2ff;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+   min-width: 160px;
+}
+.container__datos {
+    background-color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 0;
+    border-radius: 8px;
+    padding: 5px;
+}
+
+.imagen-selected {
+width: clamp(100px, 30%, 200px);
+}
+
+.container-selected h2 {
+    text-align: center;
+    margin: 10px;
+}
+.error {
+    background-color: red;
+    width: 90%;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.boton-susctiption {
+    padding: 5px;
+    border-radius: 4px;
+    border: none;
+    background-color: #234589;
+    color: #fff;
+}
+.boton-susctiption:hover {
+    background-color: #3375a9;
+}

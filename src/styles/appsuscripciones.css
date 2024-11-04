@@ -1,0 +1,17 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container__appsus {
+    padding: 20px;
+    background-image: linear-gradient(to right, #29d, #7bf);
+    max-width: 600px;
+    margin: 40px auto ;
+    border-radius: 8px;
+}
+h1 {
+    color: #fff;
+    text-align: center;
+}

@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+
+.container-presupuesto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    padding: 20px;
+    gap: 10px;
+}
+
+.container__form {
+    width: clamp(200px, 50%, 350px);
+   
+   
+}
+
+.container__input {
+    width: 100%;
+    padding: 5px;
+    outline: none;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border: 1px solid transparent;
+}
+.container__agregar {
+    width: 100%;
+    padding: 5px;
+    color: #fff;
+    background-color: #222;
+    border: none;
+    border-radius: 4px;
+}
+
+.error-presupuesto {
+    background-color: #f00;
+    color: #fff;
+    padding: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 4px;
+}
